@@ -1,12 +1,21 @@
-# Keil 编译输出
+﻿# Keil 编译输出目录
 **/objects/
 **/listings/
+**/MDK-ARM/LED_Project_stm32/
+**/MDK-ARM/*.map
+**/MDK-ARM/*.lst
+
+# Keil 编译产物（通用，防止换目标名后漏掉）
+**/*.o
+**/*.d
+**/*.crf
+**/*.axf
+**/*.hex
+**/*.dep
+**/*.iex
+**/*.lnp
 
 # Keil 个人配置和备份
 *.uvguix.*
 *.bak
 **/.vscode/
-
-**/MDK-ARM/LED_Project_stm32/
-**/MDK-ARM/*.map
-**/MDK-ARM/*.lst
