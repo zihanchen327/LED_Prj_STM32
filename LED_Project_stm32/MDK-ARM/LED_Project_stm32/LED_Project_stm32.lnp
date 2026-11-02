@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"led_project_stm32\startup_stm32f103xb.o"
+"led_project_stm32\main.o"
+"led_project_stm32\gpio.o"
+"led_project_stm32\adc.o"
+"led_project_stm32\usart.o"
+"led_project_stm32\stm32f1xx_it.o"
+"led_project_stm32\stm32f1xx_hal_msp.o"
+"led_project_stm32\stm32f1xx_hal_gpio_ex.o"
+"led_project_stm32\stm32f1xx_hal_adc.o"
+"led_project_stm32\stm32f1xx_hal_adc_ex.o"
+"led_project_stm32\stm32f1xx_hal.o"
+"led_project_stm32\stm32f1xx_hal_rcc.o"
+"led_project_stm32\stm32f1xx_hal_rcc_ex.o"
+"led_project_stm32\stm32f1xx_hal_gpio.o"
+"led_project_stm32\stm32f1xx_hal_dma.o"
+"led_project_stm32\stm32f1xx_hal_cortex.o"
+"led_project_stm32\stm32f1xx_hal_pwr.o"
+"led_project_stm32\stm32f1xx_hal_flash.o"
+"led_project_stm32\stm32f1xx_hal_flash_ex.o"
+"led_project_stm32\stm32f1xx_hal_exti.o"
+"led_project_stm32\stm32f1xx_hal_uart.o"
+"led_project_stm32\system_stm32f1xx.o"
+--strict --scatter "LED_Project_stm32\LED_Project_stm32.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LED_Project_stm32.map" -o LED_Project_stm32\LED_Project_stm32.axf

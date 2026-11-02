@@ -1,0 +1,8 @@
+# Keil 编译输出
+**/objects/
+**/listings/
+
+# Keil 个人配置和备份
+*.uvguix.*
+*.bak
+**/.vscode/
