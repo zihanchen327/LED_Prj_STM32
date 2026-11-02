@@ -6,3 +6,7 @@
 *.uvguix.*
 *.bak
 **/.vscode/
+
+**/MDK-ARM/LED_Project_stm32/
+**/MDK-ARM/*.map
+**/MDK-ARM/*.lst
